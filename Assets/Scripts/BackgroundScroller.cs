@@ -7,6 +7,7 @@ public class BackgroundScroller : MonoBehaviour
     [SerializeField] private float scrollSpeed = 0.5f;
     private float offset;
     private Material material;
+
     void Start()
     {
         material= GetComponent<Renderer>().material;

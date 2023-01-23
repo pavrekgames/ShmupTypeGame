@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject bottomWall;
     [SerializeField] private Vector3 topWallLimit;
     [SerializeField] private Vector3 bottomWallLimit;
+
     void Start()
     {
         topWallLimit = topWall.transform.position;

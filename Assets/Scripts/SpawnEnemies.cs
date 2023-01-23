@@ -16,6 +16,7 @@ public class SpawnEnemies : MonoBehaviour
     [SerializeField] private int spawnPointIndex;
     [SerializeField] private int enemiesAmount;
     [SerializeField] private float spawnTime;
+
     void Start()
     {
         spawnTime = 1;
